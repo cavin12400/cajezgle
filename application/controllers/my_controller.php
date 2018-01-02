@@ -73,6 +73,11 @@ class My_controller extends CI_Controller {
 		
 		$this->load->view('home');
 		}
+		public function forget(){
+			$this->session->set_flashdata("errorlog","Please contact Admin to reset password.");
+			redirect('my_controller/start');
+			$this->load->view('home');
+		}
 		public function logout(){
 			session_destroy();
 			redirect('my_controller/start','refresh');
