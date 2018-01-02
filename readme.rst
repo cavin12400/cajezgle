@@ -9,9 +9,12 @@ a rich set of libraries for commonly needed tasks, as well as a simple
 interface and logical structure to access these libraries. CodeIgniter lets
 you creatively focus on your project by minimizing the amount of code needed
 for a given task.
-######################################################################
-Change Folder name to "cajezgle" and paste on XAMPP or WAMP directory.
-######################################################################
+###################
+INSTRUCTIONS
+###################
+Strictly change the folder name from "cajezgle-master" into "cajezgle" and paste it into XAMPP or WAMP directory.
+Then goto localhost/cajezgle to view.
+
 *******************
 Release Information
 *******************
