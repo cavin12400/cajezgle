@@ -3,6 +3,7 @@ INSTRUCTIONS
 ###################
 
 1)Strictly rename the folder from "cajezgle-master" into "cajezgle" then paste it into the XAMPP or WAMP directory.
+
 2)Make a database named "cajezgle_db" and import the sql(cajezgle_db.sql) file included in the folder.
 
 *******************
