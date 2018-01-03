@@ -6,6 +6,8 @@ INSTRUCTIONS
 
 2)Make a database named "cajezgle_db" and import the sql(cajezgle_db.sql) file included in the folder.
 
+3)Admin: User:admin Pass: admin123
+
 *******************
 Release Information
 *******************
