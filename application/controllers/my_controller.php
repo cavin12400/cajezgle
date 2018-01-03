@@ -6,6 +6,7 @@ class My_controller extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$this->load->model('my_model');
+		
 	}
 	public function start()
 	{
@@ -67,11 +68,23 @@ class My_controller extends CI_Controller {
 			}
 		}
 
-
-			
+		if(isset($_SESSION['user_logged'])){
+			$this->load->model('my_model');
+			$data['ProfileInfo'] = $this->my_model->getUserInfo($_SESSION['username']);
+			redirect('user_controller/profile/'. $_SESSION['username']);
+			//$this->load->view('user_controller/profile', $data);
+		}
+		else if(isset($_SESSION['admin_logged'])){
+			$this->load->model('my_model');
+			$data['ProfileInfo'] = $this->my_model->getUserInfo($_SESSION['username']);
+			redirect('admin_controller/admin');
+		}
+		else{
+			$this->load->view('home');
+		}
 
 		
-		$this->load->view('home');
+		
 		}
 		public function forget(){
 			$this->session->set_flashdata("errorlog","Please contact Admin to reset password.");

@@ -1,9 +1,14 @@
 ###################
-INSTRUCTIONS
+What is CodeIgniter
 ###################
-Strictly change the folder name from "cajezgle-master" into "cajezgle" and paste it into XAMPP or WAMP directory.
-Then goto localhost/cajezgle to view.
 
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
 
 *******************
 Release Information
